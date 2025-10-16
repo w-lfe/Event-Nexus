@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cd:*)",
+      "Bash(find:*)",
+      "Bash(npm run dev:*)",
+      "Bash(timeout 5 bash -c 'until curl -s http://localhost:5173 > /dev/null; do sleep 0.5; done; echo \"\"Server is ready!\"\"')",
+      "Bash(yarn --version)",
+      "Bash(yarn dev)",
+      "Bash(yarn install)",
+      "Bash(timeout 8 bash -c 'until curl -s http://localhost:5173 > /dev/null; do sleep 0.5; done; echo \"\"Server is ready!\"\"')",
+      "Bash(yarn add:*)",
+      "Bash(git init:*)",
+      "Bash(git branch:*)",
+      "Bash(git remote add:*)",
+      "Bash(git add:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

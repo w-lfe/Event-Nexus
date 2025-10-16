@@ -13,7 +13,12 @@
       "Bash(git init:*)",
       "Bash(git branch:*)",
       "Bash(git remote add:*)",
-      "Bash(git add:*)"
+      "Bash(git add:*)",
+      "Bash(git commit -m \"$(cat <<''EOF''\nInitial commit: Event Nexus - Crowdsourced Event Discovery Platform\n\nFeatures:\n- 8 category filters (Party, Music, Festival, Food, Artsy, Comedy, Expo, Sports)\n- Futuristic glass-morphism UI with dark theme\n- Supabase backend integration\n- City-based event filtering\n- Add Event modal with full validation\n- Real-time search and filtering\n- Responsive mobile-friendly design\n\n🤖 Generated with Claude Code\n\nCo-Authored-By: Claude <noreply@anthropic.com>\nEOF\n)\")",
+      "Bash(git push:*)",
+      "Bash(git pull:*)",
+      "Bash(git checkout:*)",
+      "Bash(git commit:*)"
     ],
     "deny": [],
     "ask": []
